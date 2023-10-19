@@ -33,7 +33,8 @@ function Header() {
         <span></span>
       </BurgerMenuButton>
       <StyledNavbar open={isOpen}>
-        <StyledNavItem<typeof NavLink>
+      <StyledNavItem
+          as={NavLink}
           to="/" aria-label="home"
           onClick={handleNavItemClick}
         >
