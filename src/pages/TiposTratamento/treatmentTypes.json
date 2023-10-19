@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Luto",
+        "description": "Apoio emocional para enfrentar a perda de entes queridos e superar o luto."
+    },
+    {
+        "name": "Pânico",
+        "description": "Ajuda para controlar ataques de pânico e ansiedade extrema, restabelecendo o equilíbrio emocional."
+    },
+    {
+        "name": "Estresse",
+        "description": "Estratégias para lidar com o estresse diário, promovendo o bem-estar mental e físico."
+    },
+    {
+        "name": "Angústia",
+        "description": "Acolhimento e orientação para aliviar a angústia emocional e encontrar soluções saudáveis."
+    },
+    {
+        "name": "Gestação",
+        "description": "Apoio psicológico durante a gravidez, ajudando a lidar com as mudanças emocionais e físicas."
+    },
+    {
+        "name": "Depressão",
+        "description": "Tratamento para superar a depressão, recuperando a motivação e o prazer na vida."
+    },
+    {
+        "name": "Ansiedade",
+        "description": "Estratégias para controlar a ansiedade, reduzindo os sintomas e melhorando a qualidade de vida."
+    },
+    {
+        "name": "Insegurança",
+        "description": "Fortalecimento da autoestima e desenvolvimento de habilidades para superar a insegurança."
+    },
+    {
+        "name": "Fobia social",
+        "description": "Ajuda para vencer a timidez excessiva e a ansiedade em situações sociais."
+    },
+    {
+        "name": "Saúde Mental",
+        "description": "Cuidado abrangente da saúde mental, visando o equilíbrio emocional e o bem-estar geral."
+    },
+    {
+        "name": "Perfeccionismo",
+        "description": "Tratamento para reduzir o perfeccionismo prejudicial e promover uma visão mais realista."
+    },
+    {
+        "name": "Procrastinação",
+        "description": "Superar a procrastinação e desenvolver hábitos de produtividade e eficiência."
+    },
+    {
+        "name": "Terapia de casal",
+        "description": "Apoio para casais enfrentarem desafios e melhorarem a comunicação e a intimidade."
+    },
+    {
+        "name": "Alterações do humor",
+        "description": "Gerenciamento das oscilações de humor, promovendo estabilidade emocional."
+    },
+    {
+        "name": "Conflitos familiares",
+        "description": "Mediação e orientação para resolver conflitos familiares de maneira saudável."
+    },
+    {
+        "name": "Insatisfação profissional",
+        "description": "Exploração das causas da insatisfação no trabalho e busca por realização profissional."
+    },
+    {
+        "name": "Dificuldades no relacionamento",
+        "description": "Apoio para casais e relacionamentos enfrentarem desafios e construírem relações saudáveis."
+    },
+    {
+        "name": "Dificuldade na tomada de decisões",
+        "description": "Apoio para tomar decisões com confiança e superar a indecisão."
+    }
+]
