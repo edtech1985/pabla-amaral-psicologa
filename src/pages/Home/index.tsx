@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import {
   Container,
   Titulo,
@@ -37,13 +37,13 @@ export default function Home() {
         <Container>
           <div className="animation" data-aos="zoom-in">
             <ContainerFoto>
-              <ImagemPsicologa src={imgPabla} alt="Psicóloga" />
+              <ImagemPsicologa src={imgPabla} aria-label="Psicóloga" />
             </ContainerFoto>
           </div>
           <ContainerText>
             <div className="animation" data-aos="zoom-in">
               <MobileImageWrapper>
-                <ImagemPsicologa src={imgPabla} alt="Psicóloga Pabla Amaral" />
+                <ImagemPsicologa src={imgPabla} aria-label="Psicóloga Pabla Amaral" />
               </MobileImageWrapper>
             </div>
 
@@ -64,7 +64,7 @@ export default function Home() {
               <Subtitulo>Praticidade e fácil acesso</Subtitulo>
 
               <TextoSecundario>
-                O <strong>atendimento online</strong> é altamente eficiente e
+                O <strong>atendimento online</strong> é aria-labelamente eficiente e
                 muitos estudos atestam isso. A sessão de terapia on-line
                 proporciona resultados incríveis. Agende uma consulta
                 psicológica em apenas alguns cliques. Atendimento para adultos,
@@ -95,98 +95,98 @@ export default function Home() {
         <FlagsDiv>
           <img
             src="https://flagcdn.com/120x90/us.png"
-            srcset="https://flagcdn.com/240x180/us.png 2x"
+            srcSet="https://flagcdn.com/240x180/us.png 2x"
             width="40"
             height="30"
-            alt="United States"
+            aria-label="United States"
           />
 
           <img
             src="https://flagcdn.com/120x90/ie.png"
-            srcset="https://flagcdn.com/240x180/ie.png 2x"
+            srcSet="https://flagcdn.com/240x180/ie.png 2x"
             width="40"
             height="30"
-            alt="Ireland"
+            aria-label="Ireland"
           />
 
           <img
             src="https://flagcdn.com/120x90/br.png"
-            srcset="https://flagcdn.com/240x180/br.png 2x"
+            srcSet="https://flagcdn.com/240x180/br.png 2x"
             width="40"
             height="30"
-            alt="Brazil"
+            aria-label="Brazil"
           />
 
           <img
             src="https://flagcdn.com/120x90/gb-eng.png"
-            srcset="https://flagcdn.com/240x180/gb-eng.png 2x"
+            srcSet="https://flagcdn.com/240x180/gb-eng.png 2x"
             width="40"
             height="30"
-            alt="England"
+            aria-label="England"
           />
 
           <img
             src="https://flagcdn.com/120x90/it.png"
-            srcset="https://flagcdn.com/240x180/it.png 2x"
+            srcSet="https://flagcdn.com/240x180/it.png 2x"
             width="40"
             height="30"
-            alt="Italy"
+            aria-label="Italy"
           />
           <img
             src="https://flagcdn.com/120x90/de.png"
-            srcset="https://flagcdn.com/240x180/de.png 2x"
+            srcSet="https://flagcdn.com/240x180/de.png 2x"
             width="40"
             height="30"
-            alt="Germany"
+            aria-label="Germany"
           />
           <img
             src="https://flagcdn.com/120x90/au.png"
-            srcset="https://flagcdn.com/240x180/au.png 2x"
+            srcSet="https://flagcdn.com/240x180/au.png 2x"
             width="40"
             height="30"
-            alt="Australia"
+            aria-label="Australia"
           />
           <img
             src="https://flagcdn.com/120x90/pt.png"
-            srcset="https://flagcdn.com/240x180/pt.png 2x"
+            srcSet="https://flagcdn.com/240x180/pt.png 2x"
             width="40"
             height="30"
-            alt="Portugal"
+            aria-label="Portugal"
           />
           <img
             src="https://flagcdn.com/120x90/ru.png"
-            srcset="https://flagcdn.com/240x180/ru.png 2x"
+            srcSet="https://flagcdn.com/240x180/ru.png 2x"
             width="40"
             height="30"
-            alt="Russia"
+            aria-label="Russia"
           />
           <img
             src="https://flagcdn.com/120x90/ae.png"
-            srcset="https://flagcdn.com/240x180/ae.png 2x"
+            srcSet="https://flagcdn.com/240x180/ae.png 2x"
             width="40"
             height="30"
-            alt="Emirate"
+            aria-label="Emirate"
           />
           <img
             src="https://flagcdn.com/120x90/es.png"
-            srcset="https://flagcdn.com/240x180/es.png 2x"
+            srcSet="https://flagcdn.com/240x180/es.png 2x"
             width="40"
             height="30"
-            alt="Spain"
+            aria-label="Spain"
           />
           <img
             src="https://flagcdn.com/120x90/fr.png"
-            srcset="https://flagcdn.com/240x180/fr.png 2x"
+            srcSet="https://flagcdn.com/240x180/fr.png 2x"
             width="40"
             height="30"
-            alt="France"
+            aria-label="France"
           />
           <img
             src="https://flagcdn.com/120x90/ca.png"
-            srcset="https://flagcdn.com/240x180/ca.png 2x"
+            srcSet="https://flagcdn.com/240x180/ca.png 2x"
             width="40"
             height="30"
-            alt="Canada"
+            aria-label="Canada"
           />
         </FlagsDiv>
       </DesktopContainer>
@@ -197,7 +197,7 @@ export default function Home() {
         <TabletTopDiv>
           <TabletContainerFoto>
             <div className="animation" data-aos="zoom-in">
-              <ImagemPsicoTablet src={imgPabla} alt="Psicóloga" />
+              <ImagemPsicoTablet src={imgPabla} aria-label="Psicóloga" />
             </div>
           </TabletContainerFoto>
 
@@ -222,7 +222,7 @@ export default function Home() {
             <Subtitulo>Praticidade e fácil acesso</Subtitulo>
 
             <TextoSecundario>
-              O <strong>atendimento online</strong> é altamente eficiente e
+              O <strong>atendimento online</strong> é aria-labelamente eficiente e
               muitos estudos atestam isso. <br />
               A sessão de terapia on-line proporciona resultados incríveis.
               <br />

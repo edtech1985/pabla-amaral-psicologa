@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import {
   NavbarTitle,
@@ -21,9 +21,11 @@ function Header() {
     setIsOpen(false);
   };
 
+
+
   return (
     <StyledHeader>
-      <StyledLogo src={logo} alt="Psicologia" />
+      <StyledLogo src={logo} aria-label="Psicologia" />
       <NavbarTitle> Psicóloga Pabla Amaral</NavbarTitle>
       <BurgerMenuButton open={isOpen} onClick={handleMenuClick}>
         <span></span>
@@ -31,13 +33,16 @@ function Header() {
         <span></span>
       </BurgerMenuButton>
       <StyledNavbar open={isOpen}>
-        <StyledNavItem as={NavLink} to="/" exact onClick={handleNavItemClick}>
+        <StyledNavItem<typeof NavLink>
+          to="/" aria-label="home"
+          onClick={handleNavItemClick}
+        >
           Home
         </StyledNavItem>
         <StyledNavItem
           as={NavLink}
           to="/psicoterapia"
-          alt="psicoterapia"
+          aria-label="psicoterapia"
           onClick={handleNavItemClick}
         >
           <span> Psicoterapia </span>
@@ -45,7 +50,7 @@ function Header() {
         <StyledNavItem
           as={NavLink}
           to="/tratamentos"
-          alt="tratamentos"
+          aria-label="tratamentos"
           onClick={handleNavItemClick}
         >
           <span> Tratamentos </span>
@@ -53,7 +58,7 @@ function Header() {
         <StyledNavItem
           as={NavLink}
           to="/depoimentos"
-          alt="depoimentos"
+          aria-label="depoimentos"
           onClick={handleNavItemClick}
         >
           Depoimentos
@@ -61,7 +66,7 @@ function Header() {
         <StyledNavItem
           as={NavLink}
           to="/sobre"
-          alt="sobre"
+          aria-label="sobre"
           onClick={handleNavItemClick}
         >
           Sobre Mim
@@ -69,7 +74,7 @@ function Header() {
         <StyledNavItem
           as={NavLink}
           to="/contato"
-          alt="contato"
+          aria-label="contato"
           onClick={handleNavItemClick}
         >
           Contato

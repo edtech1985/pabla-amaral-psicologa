@@ -1,4 +1,3 @@
-import React from "react";
 import { Card, Container, InstagramLink } from "./Feed";
 import post1 from "../../img/feed/post1.jpg";
 import post2 from "../../img/feed/post2.jpg";

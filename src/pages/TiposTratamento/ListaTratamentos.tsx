@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Lista } from "./TiposTratamento";
 import treatmentTypes from "./treatmentTypes.json";
 import styled from "styled-components";
@@ -55,8 +55,22 @@ const CloseButton = styled.button`
   }
 `;
 
-const Modal = ({ isOpen, closeModal, treatment }) => {
+interface ModalProps {
+  isOpen: boolean;
+  closeModal: () => void;
+  treatment: {
+    name: string | null;
+    description: string | null ;
+  };
+}
+
+const Modal: React.FC<ModalProps> = ({ isOpen, closeModal, treatment }) => {
   if (!isOpen) return null;
+
+  if (!treatment) {
+    console.error('Modal was opened without a treatment being selected.');
+    return null;
+  }
 
   return (
     <ModalOverlay>
@@ -69,18 +83,27 @@ const Modal = ({ isOpen, closeModal, treatment }) => {
   );
 };
 
+export interface TreatmentType {
+  name: string | null;
+  description: string | null;
+}
+
 export default function ListaDeTratamentos() {
   const [modalOpen, setModalOpen] = useState(false);
-  const [selectedTreatment, setSelectedTreatment] = useState(null);
+  const [selectedTreatment, setSelectedTreatment] = useState<TreatmentType>({
+    name: "",
+    description: "",
+  });
 
-  const openModal = (treatment) => {
+
+  const openModal = (treatment: TreatmentType) => {
     setSelectedTreatment(treatment);
     setModalOpen(true);
   };
 
   const closeModal = () => {
     setModalOpen(false);
-    setSelectedTreatment(null);
+    // setSelectedTreatment(null);
   };
 
   return (

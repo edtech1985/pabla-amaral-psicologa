@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const ModalOverlay = styled.div`
@@ -46,7 +45,14 @@ const CloseButton = styled.button`
   margin-top: 1rem;
 `;
 
-const Modal = ({ name, description, onClose }) => {
+interface ModalProps {
+  treatment?: string | null; 
+  name: string;
+  description: string;
+  onClose: () => void;
+}
+
+const Modal: React.FC<ModalProps> = ({ name, description, onClose }) => {
   return (
     <ModalOverlay>
       <ModalContainer>

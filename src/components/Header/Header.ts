@@ -24,7 +24,11 @@ export const StyledLogo = styled.img`
   height: 8vh;
 `;
 
-export const StyledNavbar = styled.nav`
+interface StyledNavbarProps {
+  open: boolean;
+}
+
+export const StyledNavbar = styled.nav<StyledNavbarProps>`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +47,11 @@ export const StyledNavbar = styled.nav`
   }
 `;
 
-export const BurgerMenuButton = styled.button`
+interface BurgerMenuButtonProps {
+  open: boolean;
+}
+
+export const BurgerMenuButton = styled.button<BurgerMenuButtonProps>`
   display: none;
 
   @media screen and (max-width: 768px) {
