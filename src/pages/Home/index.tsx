@@ -84,7 +84,7 @@ export default function Home() {
               a língua, estilo de vida, cultura,rotina, emprego, clima, relações
               e diversos outros fatores podem dificultar a adaptação no novo
               país, neste momento a terapia ajuda a ver as situações por outros
-              ângulos . Já passei por essa experiência na minha vida, e sei
+              ângulos. Já passei por essa experiência na minha vida, e sei
               exatamente os desafios enfrentados, e por esse motivo, passei a
               atender pacientes fora do país. Ofereço
               <strong> suporte personalizado </strong>com ferramentas para
