@@ -47,10 +47,7 @@ export default function SobreMim() {
           <span>
             <b>inteligência emocional</b>
           </span>{" "}
-          através do autoconhecimento,ao longo de minha trajetória como
-          psicóloga, compreendi que a construção de um vínculo genuíno entre
-          paciente e profissional ocorre por meio de um acolhimento empático,
-          uma escuta ativa e uma profunda compreensão.
+          através do autoconhecimento.
         </Texto>
         <Texto>
           Convido você a vivenciar esse{" "}
