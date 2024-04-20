@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   text-align: center;
-  max-width: 80vw;
+  max-width: 90vw;
   margin: 0 auto;
 
   @media only screen and (max-width: 480px) {
-    height: 80vw;
+    height: 80vh;
   }
 
   @media only screen and (min-width: 480px) and (max-width: 600px) {
-    height: 90vh;
+    height: 80vh;
   }
 `;
 
@@ -19,6 +19,16 @@ export const Titulo = styled.h1`
   color: var(--text);
   margin-bottom: 1rem;
   margin-top: 1rem;
+
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 600px) {
+    margin-bottom: 2.5rem;
+    margin-top: 3.5rem;
+  }
 `;
 
 export const IconesContato = styled.ul`

@@ -7,7 +7,6 @@ export const DesktopContainer = styled.section`
   padding: 1rem;
 
   @media only screen and (max-width: 600px) {
-    padding-top: 1rem;
     padding: 1rem;
   }
 `;
@@ -43,10 +42,9 @@ export const Container = styled.div`
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
   /* Adicione outros estilos conforme necessário */
-  max-width: 100%;
 
   @media only screen and (max-width: 600px) {
-    max-width: 100%;
+    max-width: 90vw;
     display: block;
   }
 
@@ -100,6 +98,10 @@ export const ContainerText = styled.div`
   margin-top: auto;
   margin-bottom: auto;
   padding: 2rem;
+
+  @media only screen and (max-width: 600px) {
+    width: 80vw;
+  }
 
   @media only screen and (min-width: 601px) and (max-width: 992px) {
     width: 100%;
