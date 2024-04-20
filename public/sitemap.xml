@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Página Inicial -->
+    <url>
+        <loc>https://www.psicologapablaamaral.com.br/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Página de Psicoterapia -->
+    <url>
+        <loc>https://www.psicologapablaamaral.com.br/psicoterapia</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Página de Tipos de Tratamento -->
+    <url>
+        <loc>https://www.psicologapablaamaral.com.br/tratamentos</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Página de Depoimentos -->
+    <url>
+        <loc>https://www.psicologapablaamaral.com.br/depoimentos</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Página Sobre Mim -->
+    <url>
+        <loc>https://www.psicologapablaamaral.com.br/sobre</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Página de Contato -->
+    <url>
+        <loc>https://www.psicologapablaamaral.com.br/contato</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>
