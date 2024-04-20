@@ -66,7 +66,6 @@ export default function SobreMim() {
 
         <Texto>Estou pronta para ajudá-lo(a)</Texto>
       </div>
-      ;
     </Container>
   );
 }

@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
-export const OutterContainer = styled.section``;
+export const OutterContainer = styled.section`
+  max-width: 100vw;
+`;
 
 export const DesktopContainer = styled.section`
   max-width: 100vw;
   padding: 1rem;
 
   @media only screen and (max-width: 600px) {
-    padding: 1rem;
+    padding: 0rem;
   }
 `;
 
@@ -31,7 +33,7 @@ export const FlagsDiv = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    width: 100%;
+    max-width: 100vw;
   }
 `;
 
@@ -44,7 +46,7 @@ export const Container = styled.div`
   /* Adicione outros estilos conforme necessário */
 
   @media only screen and (max-width: 600px) {
-    max-width: 90vw;
+    max-width: 100vw;
     display: block;
   }
 
@@ -64,6 +66,7 @@ export const BottomContainerText = styled.div`
   @media only screen and (max-width: 600px) {
     max-width: 90vw;
     display: block;
+    padding: 2rem;
   }
 
   @media only screen and (min-width: 601px) and (max-width: 768px) {
