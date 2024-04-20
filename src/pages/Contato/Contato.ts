@@ -5,7 +5,11 @@ export const Container = styled.div`
   max-width: 80vw;
   margin: 0 auto;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 480px) {
+    height: 80vw;
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 600px) {
     height: 90vh;
   }
 `;

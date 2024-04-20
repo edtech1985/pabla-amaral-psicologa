@@ -4,7 +4,7 @@ import suaImagemDeBackground from "../img/logo.png";
 export const Main = styled.main`
   max-width: 100vw;
   box-sizing: border-box;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
